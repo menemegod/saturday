@@ -7,6 +7,7 @@ import mainapp.views as mainapp
 
 urlpatterns = [
     path('', mainapp.index),
-    path('admin/', admin.site.urls)
-    path('phones/',)
+    path('admin/', admin.site.urls),
+    path('basket/', mainapp.basket),
+    path('catalog/', mainapp.catalog),
 ]
